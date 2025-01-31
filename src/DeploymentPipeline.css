@@ -1,0 +1,105 @@
+/* Overall container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: auto;
+    gap: 100px;
+  }
+  
+  /* Left and Right sections */
+  .left-section,
+  .right-section {
+    flex: 1;
+  }
+  
+  /* Headings (aligned properly) */
+  .section-heading {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Logo next to heading */
+  .heading-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
+  /* Apple-like terminal */
+  .terminal {
+    background-color: #282c34;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-family: "Courier New", Courier, monospace;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 450px;
+    height: 300px;
+  }
+  
+  .terminal-header {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .close-btn,
+  .minimize-btn,
+  .maximize-btn {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  a{
+    color: #34b648;
+  }
+  .close-btn { background-color: #ff5f57; }
+  .minimize-btn { background-color: #ffbd2e; }
+  .maximize-btn { background-color: #28c840; }
+  
+  /* Features section */
+  .features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 50px;
+    width: 500px ;
+  }
+  
+  /* Each feature item */
+  .feature {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    max-width: 500px;
+  }
+  
+  /* Logo as bullet point */
+  .feature-logo {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  /* Feature text */
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .feature-content strong {
+    font-size: 18px;
+  }
+  
+  .feature-content p {
+    font-size: 16px;
+    margin: 5px 0 0;
+  }
+  
