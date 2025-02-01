@@ -4,10 +4,10 @@ import "./Features.css";
 // Importing updated images from src/images
 import ec2 from "./images/EC2.png";
 import virtualPrivateCloud from "./images/Virtual Private Cloud.png";
-import git from "./images/git.png";
 import AutoScaling from "./images/AutoScaling.jpg";
 import SSLcertificate from "./images/SSLcertificate.jpg";
-import CustomDomains from "./images/CustomDomains.png"
+import ElasticLoadBalancing from "./images/Elastic Load Balancing.png";
+import simpleStorageService from "./images/Simple Storage Service.png";
 
 const Features = () => {
   const features = [
@@ -32,14 +32,14 @@ const Features = () => {
       description: "Secure your applications with free SSL",
     },
     {
-      icon: CustomDomains, // Replace with the actual path to your image/icon
-      title: "Custom Domains",
-      description: "Use your own domain name for deployments",
+      icon: simpleStorageService, // Replace with the actual path to your image/icon
+      title: "S3 Storage",
+      description: "Reliable, scalable, and secure object storage",
     },
     {
-      icon: git, // Replace with the actual path to your image/icon
-      title: "Git Integration",
-      description: "Deploy directly from your Git repository",
+      icon: ElasticLoadBalancing, // Replace with the actual path to your image/icon
+      title: "Load Balancing",
+      description: "Distribute traffic to optimize performance and availability",
     },
   ];
 

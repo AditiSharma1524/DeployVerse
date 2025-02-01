@@ -5,15 +5,12 @@
     align-items: flex-start;
     max-width: 1000px;
     margin: auto;
-    gap: 100px;
+    gap: 50px;
   }
   
-  /* Left and Right sections */
-  .left-section,
-  .right-section {
-    flex: 1;
+  .left-section {
+    margin-left:-100px ;
   }
-  
   /* Headings (aligned properly) */
   .section-heading {
     display: flex;
@@ -38,8 +35,8 @@
     border-radius: 10px;
     font-family: "Courier New", Courier, monospace;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    width: 450px;
-    height: 300px;
+    width: 500px;
+    height: 310px;
   }
   
   .terminal-header {
@@ -63,20 +60,20 @@
   .maximize-btn { background-color: #28c840; }
   
   /* Features section */
-  .features {
+  .features-dp {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     margin-top: 50px;
-    width: 500px ;
+    width: 1000px ;
   }
   
   /* Each feature item */
-  .feature {
+  .feature-dp {
     display: flex;
     align-items: center;
-    gap: 15px;
-    max-width: 500px;
+    gap: 20px;
+    max-width: 700px;
   }
   
   /* Logo as bullet point */

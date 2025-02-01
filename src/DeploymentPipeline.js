@@ -4,8 +4,8 @@ import "./DeploymentPipeline.css"; // Make sure to include the updated CSS
 import terminal_icon from "./images/terminal_icon.jpg";
 import docker from "./images/DockerSample2.png";
 import terraform from "./images/Terraform.png";
-import cloudFront from "./images/CloudFront.png";
-
+import cloudWatch from "./images/CloudWatch.png";
+import terra from "./images/terra.png";
 function DeploymentPipeline() {
   return (
     <div className="container">
@@ -52,9 +52,9 @@ function DeploymentPipeline() {
           Integrated with Your Workflow
         </h2>
 
-        <div className="features">
+        <div className="features-dp">
           {/* Docker Support */}
-          <div className="feature">
+          <div className="feature-dp">
             <img src={docker} alt="Docker Logo" className="feature-logo" />
             <div className="feature-content">
               <strong>Docker Support:</strong>
@@ -63,8 +63,8 @@ function DeploymentPipeline() {
           </div>
 
           {/* Terraform Integration */}
-          <div className="feature">
-            <img src={terraform} alt="Terraform Logo" className="feature-logo" />
+          <div className="feature-dp">
+            <img src={terra} alt="Terraform Logo" className="feature-logo" />
             <div className="feature-content">
               <strong>Terraform Integration:</strong>
               <p>Infrastructure as code with Terraform for consistent and version-controlled deployments.</p>
@@ -72,8 +72,8 @@ function DeploymentPipeline() {
           </div>
 
           {/* Cloud Monitoring */}
-          <div className="feature">
-            <img src={cloudFront} alt="CloudFront Logo" className="feature-logo" />
+          <div className="feature-dp">
+            <img src={cloudWatch} alt="CloudFront Logo" className="feature-logo" />
             <div className="feature-content">
               <strong>Cloud Monitoring:</strong>
               <p>Integrated with AWS CloudWatch for real-time monitoring and alerts.</p>
